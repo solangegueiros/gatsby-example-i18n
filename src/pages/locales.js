@@ -10,6 +10,8 @@ const Locales = ({ pageContext }) => {
     <Layout pageContext={pageContext}>
       <h1>{locale}</h1>
 
+      <p>(not translated)</p>
+
       <p>LocaleContext: {localeContext}</p>
 
       <h3>Select</h3>

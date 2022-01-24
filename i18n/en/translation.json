@@ -1,0 +1,16 @@
+{
+  "home": "Home",
+  "helloWorld": "Hello World",
+  "indexNote": "This is the Index page.",
+  "clientPage": "Client page",
+  "clientPageLink": "Link to client-only page.",
+  "secondPageLink": "Link to second page",
+  "thirdPageLink": "Link to third page",
+  "indexPageLink": "Link to index page",
+  "secondPageGermanLink": "Link to second page (German)",
+  "indexPageEnglishLink": "Link to Index page (English)",
+  "overviewLang": "Overview of languages",
+  "thirdPage": "Third page",
+  "thirdNote": "This is the third page"
+
+}
