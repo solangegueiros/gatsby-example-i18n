@@ -34,6 +34,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-theme-i18n-react-i18next`,
+      options: {
+        locales: `./i18n`,
+        i18nextOptions: {
+          ns: ["translation", "blog", "404"],
+        },
+      },
+    },    
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {

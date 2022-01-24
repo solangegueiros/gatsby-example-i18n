@@ -27,6 +27,11 @@ const Layout = ({ children, pageContext }) => {
               </Link>
             </li>
             <li className={navLinkItem}>
+              <Link to="/blog/" className={navLinkText}>
+                Blog {locale}
+              </Link>
+            </li>            
+            <li className={navLinkItem}>
               <Link to="/locales" className={navLinkText}>
                 Locales info
               </Link>
@@ -39,11 +44,6 @@ const Layout = ({ children, pageContext }) => {
             <li className={navLinkItem}>
               <Link to="/page-3/" className={navLinkText}>
                 Page 3 {locale}
-              </Link>
-            </li>
-            <li className={navLinkItem}>
-              <Link to="/blog/" className={navLinkText}>
-                Blog {locale}
               </Link>
             </li>          
           </ul>

@@ -1,22 +1,23 @@
 import * as React from "react"
 import { graphql } from "gatsby"
+import { useTranslation} from "react-i18next"
 import { LocalizedLink, useLocalization } from "gatsby-theme-i18n"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Index = ({ data, pageContext }) => {
+  const { t } = useTranslation()
   const { locale } = useLocalization()
 
   return (
     <Layout pageContext={pageContext}>
-      <Seo title="Home" />
-      <h1>Hello World {locale}</h1>      
-      <p>This is in the Index page for {locale} language.</p>
-
+      <Seo title={t("home")} />
+      <h1>{t("helloWorld")} {locale}</h1>      
+      <p>{t("indexNote")}</p>
       <br/>
-      <h2>Client page</h2>
+      <h2>{t("clientPage")}</h2>
       <p>
-        <LocalizedLink to="/app/gatsby">Link to client-only page</LocalizedLink>
+        <LocalizedLink to="/app/gatsby">{t("clientPageLink")}</LocalizedLink>
       </p>
       <h2>Blog</h2>
       <ul>

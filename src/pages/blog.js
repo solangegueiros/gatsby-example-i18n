@@ -4,7 +4,7 @@ import { LocalizedLink, useLocalization } from "gatsby-theme-i18n"
 import Layout from "../components/layout"
 
 const Blog = ({ data, pageContext }) => {
-  const { locale } = useLocalization()
+  const { locale } = useLocalization()  
 
   return (
     <Layout pageContext={pageContext}>
