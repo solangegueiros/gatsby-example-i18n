@@ -1,0 +1,1 @@
+# gatsby-example-i18n
